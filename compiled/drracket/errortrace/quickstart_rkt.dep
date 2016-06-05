@@ -1,0 +1,1 @@
+("6.3" ("fa15db654850c46d797b2f847f4505aef5f8bfdb" . "0ba2dc0027486840ebe6cbc7baf0eea49b1d64ee") #"/home/tibor/.racket/planet/300/6.3/cache/schematics/random.plt/1/0/random.rkt" (collects #"racket" #"class.rkt") (collects #"racket" #"gui" #"base.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"slideshow" #"code.rkt") (collects #"slideshow" #"main.rkt"))

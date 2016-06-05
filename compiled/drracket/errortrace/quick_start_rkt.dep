@@ -1,0 +1,1 @@
+("6.3" ("9a83acbc9fbdc40f3b4dff14c047ed97db787a34" . "b98afcd365888489c6fe0b44f93df65bdf86cecf") #"/home/tibor/.racket/planet/300/6.3/cache/schematics/random.plt/1/0/random.rkt" (collects #"pict" #"flash.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"slideshow" #"main.rkt"))
