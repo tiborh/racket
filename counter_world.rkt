@@ -18,6 +18,7 @@
 (define FC "blue") ; default font colour
 (define STEP 1)    ; how much smaller is the next counter step
 (define SN 0)      ; stop number
+(define RN 10)     ; add this number to current status of the counter
 
 ;; =================
 ;; Data definitions:
@@ -39,7 +40,7 @@
 ;; 
 (define (main c)
   (big-bang c                    ; Counter
-            (on-tick   countdown)     ; Counter -> Counter
+            (on-tick   countdown 1)     ; Counter -> Counter
             (to-draw   render)   ; Counter -> Image
             (stop-when has-run-down?)      ; Counter -> Boolean
             (on-mouse  click-mouse)      ; Counter Integer Integer MouseEvent -> Counter
@@ -84,9 +85,11 @@
 (check-expect (handle-key 10 "a") 10)
 (check-expect (handle-key SN " ") SN)
 (check-expect (handle-key SN "a") SN)
+(check-expect (handle-key SN "r") (+ SN RN))
 
 (define (handle-key c kevt)
   (cond [(key=? " " kevt) SN]
+        [(key=? "r" kevt) (+ c RN)]
         [else c]
         )
   )
