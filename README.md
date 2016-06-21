@@ -6,5 +6,6 @@ Course material.
 Extra material from _Quick: An Introduction to Racket with Pictures_ from the manual.
 
 Sources of information:
-* https://docs.racket-lang.org/index.html
-* https://www.edx.org/xseries/how-code-systematic-program-design
+* Software: https://racket-lang.org/
+* Documentation: https://docs.racket-lang.org/index.html
+* Course: https://www.edx.org/xseries/how-code-systematic-program-design
